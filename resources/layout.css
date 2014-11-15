@@ -1,6 +1,6 @@
 /*
  * Add your CSS styles here
- * 
+ *
  */
 
 body {
@@ -35,15 +35,32 @@ a:hover {
 	border-bottom: 1px solid #999;
 }
 
+#wrap {
+	width:750px;
+	margin:0 auto;
+	background:#99c;
+}
+
 #nav {
 	margin: 0 20px 0 0;
+	float: left;
+	width: 250px;
   /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
 }
 
 #main {
 	margin: 0;
+	border-left: thick double #000;
+	float: right;
+	width: 500px;
   /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
   /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
+}
+
+#main div {
+	margin: 0;
+	border-left: 1px;
+	float: right;
 }
 
 #copyright {
